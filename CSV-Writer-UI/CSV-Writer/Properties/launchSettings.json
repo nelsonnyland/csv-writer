@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "CSV-Writer (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "CSV-Writer (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
