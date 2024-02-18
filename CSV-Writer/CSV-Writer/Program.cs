@@ -40,6 +40,7 @@
                 selCols = line.Split(',');
                 // move any values in "Amount Credit" column to Amount column
                 if (!headerRow && !string.IsNullOrEmpty(selCols[5])) selCols[4] = selCols[5];
+                if (!headerRow && !string.IsNullOrEmpty(selCols[7])) selCols[3] = $"Check #: {selCols[7]}";
                 headerRow = false;
                 for (int i = 0; i < selCols.Length; i++)
                 {
